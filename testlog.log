@@ -1,0 +1,31 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1671720819598,2690,POST SELLER REGISTER,201,Created,NormalTest 1-1,text,true,,606,1302,2,2,https://market-final-project.herokuapp.com/auth/register,2684,0,2016
+1671720820019,2283,POST SELLER REGISTER,201,Created,NormalTest 1-2,text,true,,606,1274,2,2,https://market-final-project.herokuapp.com/auth/register,2277,0,1626
+1671720822344,419,POST SELLER LOGIN,201,Created,NormalTest 1-1,text,true,,568,352,2,2,https://market-final-project.herokuapp.com/auth/login,419,0,0
+1671720822344,425,POST SELLER LOGIN,201,Created,NormalTest 1-2,text,true,,568,352,2,2,https://market-final-project.herokuapp.com/auth/login,425,0,0
+1671720822764,5,POST SELLER PRODUCT,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: D:\KERJA\Belajar\Binar Bootcamp\praktikum\Jmeter\Final Project\teh.png (The system cannot find the path specified),NormalTest 1-1,text,false,,2558,0,2,2,https://market-final-project.herokuapp.com/seller/product,0,0,0
+1671720822770,2,POST SELLER PRODUCT,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: D:\KERJA\Belajar\Binar Bootcamp\praktikum\Jmeter\Final Project\teh.png (The system cannot find the path specified),NormalTest 1-2,text,false,,2558,0,2,2,https://market-final-project.herokuapp.com/seller/product,0,0,0
+1671720822773,1781,GET SELLER PRODUCT,200,OK,NormalTest 1-2,text,true,,276,408,2,2,https://market-final-project.herokuapp.com/seller/product,1780,0,1407
+1671720822771,1797,GET SELLER PRODUCT,200,OK,NormalTest 1-1,text,true,,276,408,2,2,https://market-final-project.herokuapp.com/seller/product,1797,0,1409
+1671720824554,364,GET SELLER PRODUCT ID,400,Bad Request,NormalTest 1-2,text,false,,384,419,2,2,https://market-final-project.herokuapp.com/seller/product/idNotFound,364,0,0
+1671720824568,364,GET SELLER PRODUCT ID,400,Bad Request,NormalTest 1-1,text,false,,384,419,2,2,https://market-final-project.herokuapp.com/seller/product/idNotFound,364,0,0
+1671720824919,349,DELETE SELLER PRODUCT ID,400,Bad Request,NormalTest 1-2,text,false,,384,441,2,2,https://market-final-project.herokuapp.com/seller/product/idNotFound,349,0,0
+1671720825268,2,POST SELLER PRODUCT 2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: D:\KERJA\Belajar\Binar Bootcamp\praktikum\Jmeter\Final Project\tapir.jpg (The system cannot find the path specified),NormalTest 1-2,text,false,,2560,0,2,2,https://market-final-project.herokuapp.com/seller/product,0,0,0
+1671720824932,369,DELETE SELLER PRODUCT ID,400,Bad Request,NormalTest 1-1,text,false,,384,441,2,2,https://market-final-project.herokuapp.com/seller/product/idNotFound,369,0,0
+1671720825302,1,POST SELLER PRODUCT 2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: D:\KERJA\Belajar\Binar Bootcamp\praktikum\Jmeter\Final Project\tapir.jpg (The system cannot find the path specified),NormalTest 1-1,text,false,,2560,0,2,2,https://market-final-project.herokuapp.com/seller/product,0,0,0
+1671720825271,1599,POST REGISTER BUYER ,201,Created,NormalTest 1-2,text,true,,614,1689,2,2,https://market-final-project.herokuapp.com/auth/register,1599,0,1124
+1671720826871,489,POST LOGIN BUYER,201,Created,NormalTest 1-2,text,true,,568,517,2,2,https://market-final-project.herokuapp.com/auth/login,489,0,0
+1671720827361,370,GET BUYER PRODUCT,200,OK,NormalTest 1-2,text,true,,754,467,2,2,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=6&search=tes&page=1&per_page=1,370,0,0
+1671720825304,2831,POST REGISTER BUYER ,201,Created,NormalTest 1-1,text,true,,614,1705,2,2,https://market-final-project.herokuapp.com/auth/register,2831,0,2396
+1671720827731,467,GET BUYER PRODUCT ID,400,Bad Request,NormalTest 1-2,text,false,,384,418,2,2,https://market-final-project.herokuapp.com/buyer/product/idNotFound,467,0,0
+1671720828135,475,POST LOGIN BUYER,201,Created,NormalTest 1-1,text,true,,568,517,2,2,https://market-final-project.herokuapp.com/auth/login,475,0,0
+1671720828198,622,POST BUYER ORDER,500,Internal Server Error,NormalTest 1-2,text,false,,319,482,2,2,https://market-final-project.herokuapp.com/buyer/order,622,0,0
+1671720828610,508,GET BUYER PRODUCT,200,OK,NormalTest 1-1,text,true,,754,467,2,2,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=6&search=tes&page=1&per_page=1,508,0,0
+1671720828821,898,GET BUYER ORDER,200,OK,NormalTest 1-2,text,true,,276,405,2,2,https://market-final-project.herokuapp.com/buyer/order,898,0,0
+1671720829118,615,GET BUYER PRODUCT ID,400,Bad Request,NormalTest 1-1,text,false,,384,418,2,2,https://market-final-project.herokuapp.com/buyer/product/idNotFound,614,0,0
+1671720829733,886,POST BUYER ORDER,500,Internal Server Error,NormalTest 1-1,text,false,,319,482,2,2,https://market-final-project.herokuapp.com/buyer/order,886,0,0
+1671720829719,905,GET BUYER ORDER ID,400,Bad Request,NormalTest 1-2,text,false,,384,416,2,2,https://market-final-project.herokuapp.com/buyer/order/idNotFound,905,0,0
+1671720830619,391,GET BUYER ORDER,200,OK,NormalTest 1-1,text,true,,276,405,2,2,https://market-final-project.herokuapp.com/buyer/order,391,0,0
+1671720830625,538,PUT BUYER ORDER ID,400,Bad Request,NormalTest 1-2,text,false,,384,462,2,2,https://market-final-project.herokuapp.com/buyer/order/idNotFound,538,0,0
+1671720831011,864,GET BUYER ORDER ID,400,Bad Request,NormalTest 1-1,text,false,,384,416,1,1,https://market-final-project.herokuapp.com/buyer/order/idNotFound,864,0,0
+1671720831876,348,PUT BUYER ORDER ID,400,Bad Request,NormalTest 1-1,text,false,,384,462,1,1,https://market-final-project.herokuapp.com/buyer/order/idNotFound,348,0,0
